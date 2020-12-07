@@ -1,0 +1,104 @@
+.btn {
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+
+  border: none;
+
+  outline: none;
+
+  &--yellow {
+    margin-top: 40px;
+
+    width: 287px;
+    height: 60px;
+    position: relative;
+
+    font-size: 17px;
+    color: $black;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    background-color: #ffbc21;
+
+    transition: background-color .2s linear,
+    background .8s ease;
+
+    background-position: center;
+
+    &:hover {
+      background-color: #ffce67;
+      background-image: radial-gradient(circle, transparent 1%, #ffce67 1%);
+      background-position: center;
+      background-size: 15000%;
+    }
+
+    &:active {
+      transition: background 0s;
+      background-color: #ffad00;
+      background-size: 100%;
+    }
+  }
+}
+
+.btn__callback {
+  width: 200px;
+  height: 66px;
+
+  font-size: 15px;
+  color: $white;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+
+  position: absolute;
+  top: 105px;
+  right: 0;
+
+  background-color: $blue;
+  transition: background-color .2s linear,
+  background .8s ease;
+
+  background-position: center;
+
+  &:hover {
+    background-color: #0055B5;
+    background-image: radial-gradient(circle, transparent 1%, #0055B5 1%);
+    background-position: center;
+    background-size: 15000%;
+  }
+
+  &:active {
+    transition: background 0s;
+    background-color: #76bbff;
+    background-size: 100%;
+  }
+}
+
+.btn__burger {
+  width: 200px;
+  height: 66px;
+
+  font-size: 15px;
+  color: $white;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+
+  background-color: $blue;
+  transition: background-color .2s linear,
+  background .8s ease;
+
+  background-position: center;
+
+  &:hover {
+    background-color: #0055B5;
+    background-image: radial-gradient(circle, transparent 1%, #0055B5 1%);
+    background-position: center;
+    background-size: 15000%;
+  }
+
+  &:active {
+    transition: background 0s;
+    background-color: #76bbff;
+    background-size: 100%;
+  }
+}

@@ -1,0 +1,87 @@
+.header {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 125px;
+  position: sticky;
+
+  z-index: 999;
+
+  background-color: #fff;
+  box-shadow: 0 3px 45px #00000033;
+
+  @media #{$notebook} {
+    position: fixed;
+    height: 80px;
+  }
+
+  @media #{$mobile} {
+    height: 60px;
+  }
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__icons {
+  display: flex;
+}
+
+.header__logo {
+  margin-top: 10px;
+
+  @media #{$notebook} {
+    position: absolute;
+    left: 50%;
+
+    transform: translateX(-50%);
+  }
+
+  @media #{$mobile} {
+    left: 15%;
+    top: -10%;
+  }
+}
+
+.header__img {
+  width: 100%;
+
+  @media #{$mobile} {
+    width: 50%;
+  }
+}
+
+
+.header__brand {
+  margin: 0;
+  padding: 0;
+
+  position: relative;
+  left: 20px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 139px;
+    height: 153px;
+    background-image: url("../images/flag.svg");
+
+    @media #{$notebook} {
+      top: -50%;
+    }
+
+    @media #{$tablet} {
+      top: -70%;
+    }
+  }
+
+  @media #{$mobile} {
+    display: none;
+  }
+}

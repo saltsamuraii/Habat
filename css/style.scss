@@ -1,0 +1,54 @@
+@import "vars";
+
+body {
+  margin: 0;
+  font-size: 10px;
+  font-family: 'Arvo', serif, 'Prompt', sans-serif, 'Roboto', sans-serif;
+
+  color: $black;
+  background: #fff;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Tabs */
+@import "js-css";
+
+/* Wrapper */
+@import "page";
+
+/* Burger */
+@import "burger";
+
+/* Block */
+@import "block/header";
+@import "block/container";
+@import "block/nav";
+@import "block/brand";
+@import "block/slider";
+@import "block/btn";
+@import "block/icon";
+@import "block/items";
+@import "block/section";
+@import "block/cards";
+@import "block/footer";
+@import "block/copyright";
+@import "block/tab";
+

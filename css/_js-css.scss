@@ -1,0 +1,51 @@
+.js-tab__btn {
+  width: 265px;
+  height: 70px;
+
+  font-size: 16px;
+  color: $black;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+
+  box-shadow: 0 3px 16px #00000029;
+
+  &:hover {
+    color: $white;
+
+    background-color: $blue;
+    background-image: radial-gradient(circle, transparent 1%, $blue 1%);
+    background-position: center;
+    background-size: 15000%;
+
+    transition: color .3s linear, background-color .3s linear;
+  }
+
+  &:active {
+    transition: background 0s;
+    background-color: #76bbff;
+    background-size: 100%;
+  }
+}
+
+.js-tab__btn.active {
+  font-size: 16px;
+  color: $white;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+
+  background-color: $blue;
+  transition: background-color .2s linear,
+  background .8s ease;
+
+  background-position: center;
+}
+
+
+.js-cards__body {
+  display: none;
+}
+
+
+.js-cards__body.active {
+  display: flex;
+}

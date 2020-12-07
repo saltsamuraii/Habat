@@ -1,0 +1,39 @@
+.section {
+  margin: 112px 0;
+  padding: 0;
+}
+
+.section__title {
+  font-size: 36px;
+  color: $black;
+  font-family: 'Arvo', sans-serif;
+  font-weight: 400;
+
+  text-align: center;
+
+  @media #{$mobile} {
+    font-size: 30px;
+  }
+}
+
+.section__text {
+  margin-top: 16px;
+
+  font-size: 16px;
+  color: $black;
+  font-family: 'Robot', sans-serif;
+  font-weight: 400;
+
+  text-align: center;
+
+  @media #{$mobile} {
+    padding: 0 20px;
+    font-size: 15px;
+  }
+}
+
+.section__buttons {
+  margin-top: 54px;
+  margin-bottom: 40px;
+  text-align: center;
+}

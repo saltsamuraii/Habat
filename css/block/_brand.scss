@@ -1,0 +1,30 @@
+.brand__content {
+  width: 139px;
+  padding: 20px 13px 0;
+
+  position: relative;
+
+  text-align: center;
+}
+
+.brand__text {
+  font-size: 13px;
+  color: $black;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+
+  @media #{$notebook} {
+    display: none;
+  }
+}
+
+.brand__subtext {
+  font-size: 30px;
+  color: $blue;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  @media #{$notebook} {
+    align-items: center;
+  }
+}

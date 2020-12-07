@@ -1,0 +1,50 @@
+.burger {
+  display: none;
+
+  @media #{$notebook} {
+    display: block;
+    position: fixed;
+    margin-right: 20px;
+
+    right: 0;
+    top: 10px;
+
+    background: none;
+    border: none;
+    z-index: 9999;
+  }
+
+  @media #{$mobile} {
+    top: 15px;
+  }
+}
+
+.burger__icon {
+  width: 50px;
+
+  @media #{$mobile} {
+    width: 30px;
+  }
+}
+
+.burger__menu {
+  display: none;
+}
+
+.burger__menu.active {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+
+  margin: 0;
+  padding: 20px 0;
+
+
+  align-items: center;
+
+  position: absolute;
+  top: 60px;
+
+  background: #f3f3f3;
+}

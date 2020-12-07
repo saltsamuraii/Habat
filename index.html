@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Prompt:wght@300;400&family=Roboto:wght@400;500&display=swap"
+          rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/fav.svg" type="image/svg">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HABAT</title>
+</head>
+<body>
+
+<!-- Wrapper -->
+<div class="page">
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__icons">
+                    <div class="header__logo">
+                        <img class="header__img" src="images/logo.svg" alt="">
+                    </div>
+
+                    <div class="header__brand">
+                        <div class="brand__content">
+                            <p class="brand__text">Notranja in zunanja slikopleskarska dela že več kot</p>
+                            <span class="brand__subtext">40 let</span>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="nav">
+                    <a class="nav__link" href="#">Storitve</a>
+                    <a class="nav__link" href="#">Reference</a>
+                    <a class="nav__link" href="#">Koristne</a>
+                    <a class="nav__link" href="#">informacije</a>
+                    <a class="nav__link" href="#">O podjetju</a>
+                    <a class="nav__link" href="#">Kontakt</a>
+                </nav>
+
+                <div class="nav__info">
+                    <a class="nav__phone" href="#">041 625 519</a>
+                    <a class="nav__mail" href="#">info@slikopleskarstvo-habat.si</a>
+                    <button class="btn btn__callback">Pošlji povpraševanje</button>
+                </div>
+
+
+                <button class="burger" id="navToggle">
+                    <img class="burger__icon" src="images/menu.svg" alt="">
+                </button>
+
+                <!-- Sidebar -->
+                <nav class="burger__menu" id="showMenu">
+                    <button class="btn btn__burger">Pošlji povpraševanje</button>
+                    <a class="nav__link" href="#">Storitve</a>
+                    <a class="nav__link" href="#">Reference</a>
+                    <a class="nav__link" href="#">Koristne</a>
+                    <a class="nav__link" href="#">informacije</a>
+                    <a class="nav__link" href="#">O podjetju</a>
+                    <a class="nav__link" href="#">Kontakt</a>
+
+                    <a class="nav__phone" href="#">041 625 519</a>
+                    <a class="nav__mail" href="#">info@slikopleskarstvo-habat.si</a>
+                </nav> <!-- /.burger__menu -->
+
+            </div> <!-- /.header__inner -->
+
+        </div> <!-- /.container -->
+    </header> <!-- /.header -->
+
+
+    <!-- Slider -->
+        <div class="slider">
+            <div class="container">
+                <div class="slider__inner">
+
+
+                    <div class="slider__item">
+                        <h2 class="slider__title">Zanesljivo slikopleskarstvo</h2>
+                        <img class="slider__icon" src="images/habat.svg" alt="">
+                        <p class="slider__text">Družinsko podjetje z dolgoletno tradicijo ter preverjenimi in
+                            izpopolnenimi
+                            metodami dela</p>
+                        <button class="btn btn--yellow">Oglejte si naše storitve
+                            <img class="icon__arrow" src="images/arrow.svg" alt="">
+                        </button>
+                    </div>
+
+                </div> <!-- /.slider__inner -->
+
+            </div> <!-- /.container -->
+        </div> <!-- /.slider -->
+
+    <!-- Items -->
+    <section class="items">
+        <div class="container">
+            <div class="items__inner">
+                <div class="item__block">
+                    <span class="item__title">42 let</span>
+                    <p class="item__text">uspešnega obstoja družinskega podjetja</p>
+                </div>
+
+                <div class="item__block">
+                    <img class="icon__item" src="images/v.svg" alt="#">
+                    <p class="item__text">Dosledno se držimo rokov in delovnega načrta</p>
+                </div>
+
+                <div class="item__block">
+                    <img class="icon__item" src="images/v.svg" alt="#">
+                    <p class="item__text">Delamo z obveznim upoštevanjem standardov</p>
+                </div>
+
+            </div> <!-- /.items__inner -->
+
+        </div> <!-- /.container -->
+    </section> <!-- /.section -->
+
+
+    <!-- Cards -->
+    <section class="section">
+        <div class="container">
+            <h3 class="section__title">Notranja in zunanja slikopleskarska dela</h3>
+            <p class="section__text">Slikopleskarstvo HABAT nudi širok spekter slikopleskarskih in fasaderskih del.
+                Prepleskamo vam stanovanje ali poslovni prostor, veliko izkušenj pa imamo tudi pri večjih in
+                zahtevnejših
+                projektih. Smo resen in odgovoren partner, ki se drži dogovorjenega.</p>
+
+            <div class="section__buttons">
+                <button class="btn js-tab__btn" data-tab="#tab_1">Storitve za fizične osebe</button>
+                <button class="btn js-tab__btn" data-tab="#tab_2">Storitve za podjetja</button>
+            </div>
+
+            <div class="cards js-cards__body" id="tab_1">
+                <div class="card__body">
+                    <div class="card__item">
+                        <img class="icon__card" src="images/cards/1.svg" alt="">
+                        <h4 class="card__title">Notranja <br>slikopleskarska dela</h4>
+                        <div class="card__nav">
+                            <a href="" class="card__nav-link">Beljenje stanovanja ali hiše</a>
+                            <a href="" class="card__nav-link">Pleskanje stanovanja ali hiše</a>
+                            <a href="" class="card__nav-link">Glajenje in kitanje sten</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__item">
+                        <img class="icon__card" src="images/cards/2.svg" alt="">
+                        <h4 class="card__title">Zunanja <br>slikopleskarska dela</h4>
+                        <div class="card__nav">
+                            <a href="" class="card__nav-link">Barvanje fasad</a>
+                            <a href="" class="card__nav-link">Delo na večjih objektih</a>
+                            <a href="" class="card__nav-link">Pleskanje kovinskih ograj in nadstreškov</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__item">
+                        <img class="icon__card" src="images/cards/3.svg" alt="">
+                        <h4 class="card__title">Izvedba <br> hidroizolacije</h4>
+                        <div class="card__nav">
+                            <a href="" class="card__nav-link">Hidroizolacije teras</a>
+                            <a href="" class="card__nav-link">Notranje hidroizolacije objektov</a>
+                            <a href="" class="card__nav-link">Sanacija vlažnih zidov kletnih prostorov</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__item">
+                        <img class="icon__card" src="images/cards/4.svg" alt="">
+                        <h4 class="card__title">Suhomontažna <br>gradnja</h4>
+                        <div class="card__nav">
+                            <a href="" class="card__nav-link">Postavitev pregradnih sten</a>
+                            <a href="" class="card__nav-link">Montaža spuščenih stropov</a>
+                            <a href="" class="card__nav-link">Montaža raztegljivih stropov</a>
+                            <a href="" class="card__nav-link">Oblaganje podstrešja</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__item">
+                        <img class="icon__card" src="images/cards/5.svg" alt="">
+                        <h4 class="card__title">Delo s talnimi <br>oblogami </h4>
+                        <div class="card__nav">
+                            <a href="" class="card__nav-link">Delo z industrijskimi tlaki</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__item">
+                        <img class="icon__card" src="images/cards/6.svg" alt="">
+                        <h4 class="card__title">Pametne <br>inštalacije</h4>
+                        <div class="card__nav">
+                            <a href="" class="card__nav-link">Montaža pametnih sten piši-briši</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- /.cards -->
+
+            <div class="tab__body js-cards__body" id="tab_2">
+                <div class="tab__item">
+                    <img class="tab__icon" src="images/cards/7.svg" alt="">
+                    <div class="tab__content">
+                        <p class="tab__text">Podjetje Habat d.o.o. je specializirano na področju slikopleskarstva v
+                            večjih
+                            proizvodnih obratih in poslovnih prostorih.</p>
+                        <p class="tab__text">S pomočjo sodobne tehnologije in najnovejših orodij izvajamo
+                            slikopleskarska
+                            dela na objektih, kjer
+                            je potrebna obdelava velikih površin – stenskih ali tlakov. Beljenje večjih prostorov
+                            izvajamo z
+                            visokotlačnimi črpalkami za brizganje barve na pištolo, s katero lahko prebelimo tudi do
+                            2.000m2
+                            površin dnevno.</p>
+                    </div>
+                    <button class="btn btn--yellow">Preberite več
+                        <img class="icon__arrow" src="images/arrow.svg" alt=""></button>
+                </div>
+            </div>
+
+        </div> <!-- /.container -->
+    </section> <!-- /.section -->
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+
+                <div class="footer__logo">
+                    <img class="footer__img" src="images/footer-img.svg" alt="">
+                    <img class="footer__img-logo" src="images/habat-white.svg" alt="">
+                </div>
+
+                <div class="footer__nav-bar">
+                    <div class="footer__block-left">
+                        <h5 class="footer__nav-title">Storitve</h5>
+                        <div class="footer__nav">
+                            <div class="footer__nav-block">
+                                <a class="footer__nav-link">Beljenje stanovanja ali hiše</a>
+                                <a class="footer__nav-link">Pleskanje stanovanja ali hiše</a>
+                                <a class="footer__nav-link">Glajenje in kitanje sten</a>
+                                <a class="footer__nav-link">Barvanje fasad</a>
+                                <a class="footer__nav-link">Delo na večjih objektih</a>
+                                <a class="footer__nav-link">Pleskanje kovinskih ograj in nadstreškov</a>
+                                <a class="footer__nav-link">Hidroizolacije teras</a>
+                                <a class="footer__nav-link">Notranje hidroizolacije objektov</a>
+                            </div>
+
+                            <div class="footer__nav-block footer__nav-block--left">
+                                <a class="footer__nav-link">Sanacija vlažnih zidov kletnih prostorov</a>
+                                <a class="footer__nav-link">Postavitev pregradnih sten</a>
+                                <a class="footer__nav-link">Montaža spuščenih stropov</a>
+                                <a class="footer__nav-link">Montaža raztegljivih stropov</a>
+                                <a class="footer__nav-link"> Oblaganje podstrešja</a>
+                                <a class="footer__nav-link">Delo z industrijskimi tlaki</a>
+                                <a class="footer__nav-link">Montaža pametnih sten piši-briši</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="footer__block-right">
+                        <h5 class="footer__nav-title">Kontakt</h5>
+                        <p class="footer__address">Habat d.o.o. Ulica pod gozdom 14
+                            <br>1236 Trzin Slovenija</p>
+                        <a class="footer__phone">041 625 519</a>
+                        <a class="footer__mail">info@slikopleskarstvo-habat.si</a>
+                        <button class="footer__social">
+                            Obiščite nas tudi na Facebooku
+                            <img class="footer__icon" src="images/fb.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="copyright">
+                    <div class="copyright__item">
+                        <p class="copyright__text">© Slikopleskarstvo Habat 1978-2020</p>
+                    </div>
+
+                    <div class="copyright__item">
+                        <p class="copyright__text">Pogoji uporabe piškotkov Pravilnik o varstvu osebnih podatkov</p>
+                    </div>
+
+                    <div class="copyright__item copyright__item--logo">
+                        <p class="copyright__text">Izdelava spletne strani in podpora</p>
+                        <img src="images/copyright-logo.svg" alt="" class="copyright__logo">
+                    </div>
+                </div>
+
+            </div>  <!-- /.footer__inner -->
+
+        </div> <!-- /.container -->
+    </footer> <!-- /.footer -->
+
+</div> <!-- wrapper -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="slick.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
